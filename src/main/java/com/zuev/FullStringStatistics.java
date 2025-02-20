@@ -1,5 +1,7 @@
 package com.zuev;
+
 import java.util.List;
+
 // Полная статистика для строк
 class FullStringStatistics extends Statistics {
     private int count;
@@ -28,6 +30,7 @@ class FullStringStatistics extends Statistics {
             }
         }
     }
+
     @Override
     public String toString() {
         return "Количество элементов: " + count +

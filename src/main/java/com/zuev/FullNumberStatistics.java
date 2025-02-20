@@ -1,6 +1,7 @@
 package com.zuev;
 
 import java.util.List;
+
 // Полная статистика для чисел
 class FullNumberStatistics extends Statistics {
     private int count;
@@ -37,6 +38,7 @@ class FullNumberStatistics extends Statistics {
 
         this.average = this.sum / this.count;
     }
+
     @Override
     public String toString() {
         return "Количество элементов: " + count +

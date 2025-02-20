@@ -1,5 +1,7 @@
 package com.zuev;
+
 import java.util.List;
+
 class StringStatisticsCollector implements StatisticsCollector<String> {
     private final boolean full;
 
